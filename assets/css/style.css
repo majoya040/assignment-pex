@@ -1,0 +1,602 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    
+}
+
+/*global css*/
+
+.title{
+    width: 100%;
+}
+
+.title h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+}
+
+.text2{
+    width: 100%;
+    
+}
+
+
+/*header*/
+.header-section{
+    width: 100%;
+    background: url(../img/banner.png) center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .bg-light{
+    background-color: transparent !important;
+    padding: 25px 25px;
+}
+
+.header-section .navbar{
+    border-bottom: 1px solid #3b2c3b;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+    background: url(../img/line.png) center bottom no-repeat;
+    
+}
+
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 15px;
+    margin: 0px 0px 0px 15px;
+    font-weight: 600;
+    
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    background: url(../img/line.png) center bottom no-repeat;
+}
+
+.header-section .navbar .form-control{
+    width: 25%;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #777777;
+    margin-left: 30px;
+}
+
+/*banner*/
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    padding: 60px 0px;
+}
+
+.banner-section .banner{
+    width: 100%;
+    padding: 60px 0px;  
+}
+
+.banner-section .banner h4{
+    text-align: right;
+    font-size: 42px;
+    line-height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 80px;
+    margin-right: 80px;
+    
+}
+
+.banner-section .banner p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #efebec;
+    margin-top: 5px;
+   text-align: right;
+   margin-right: 80px;
+
+}
+
+.banner-section .banner .button{
+    width: 100%;
+    padding: 35px 0px 0px 0px;
+    text-align: right;
+    
+}
+
+.banner-section .banner .button .btn-info{
+    margin-right: 75px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    border-radius: 25px;
+    color: white;
+    background: #8824cd ;
+    border: 1px solid #8824cd;
+    transition: 1s ease-in-out;
+
+}
+
+.banner-section .banner .button .btn-info:hover{
+
+    color: white;
+    background: transparent ;
+    border: 1px solid #8824cd;
+}
+
+/*body-blue*/
+
+.body-blue{
+    width: 100%;
+    background: url(../img/img1.png) center top no-repeat;
+   
+    border-top: 1px solid #455975;
+    padding: 80px 0px;
+}
+
+.body-blue .blue{
+    width: 100%;
+    
+}
+
+.body-blue .blue .text{
+    width: 100%;
+    padding:0px 0px 0px 100px;
+
+}
+
+.body-blue .blue .text h4{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 20px 0px;
+    line-height: 24px;
+}
+
+.body-blue .blue .text p{
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 0px 20px 0px;
+    
+}
+
+.body-blue .blue .text2 h4{
+    margin: 20px 0px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.body-blue .blue .text2 p{
+    padding: 0px 0px 20px 0px;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*body red*/
+
+.body-red{
+    width: 100%;
+    background: url(../img/img3.png) center top no-repeat;
+    height: 90vh;
+    
+}
+.body-red .blue2{
+  width: 100%;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.red-text{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+}
+
+.red-text .title h2{
+    padding: 30px 0px 20px 0px;
+
+}
+
+.red-text .text2 p{
+    font-size: 15px;
+    line-height: 26px;
+    color: white;
+}
+
+.red-text .red .banner .button{
+    width: 100%;
+    
+    
+    text-align: center;
+    
+}
+
+.red-text .red .button .btn-info{
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    border-radius: 25px;
+    color: #d54c63;
+    background: white ;
+    border: 1px solid #d54c63;
+    transition: 1s ease-in-out;
+
+}
+
+
+.red-text .red .button .btn-info:hover{
+
+    color: white;
+    background: transparent ;
+    border: 1px solid #d54c63;
+}
+
+/*body white*/
+
+.body-white{
+    width: 100%;
+    text-align: left;
+}
+
+.body-white .left{
+    width: 100%;
+    
+}
+
+.body-white .left img{
+    width: 500px;
+    height: 360px;
+    margin: 0px 0px 0px -115px;
+}
+
+.body-white .right{
+    width: 100%;
+    text-align: left;
+
+}
+
+.body-white .right .title h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a4d60;
+    padding: 60px 0px 0px 80px;
+}
+
+.body-white .right .text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3a4d60;
+    padding: 20px 0px 10px 80px;
+}
+
+.body-white .right .text2 p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #3a4d60;
+    padding: 0px 0px 0px 80px;
+}
+
+/*body purple*/
+
+.body-purple{
+    width: 100%;
+    
+    background: url(../img/img5.png) center top no-repeat;
+}
+
+
+  
+.body-purple .purple{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px 90px 0px;
+}
+  
+.body-purple .purple .title h2{
+    padding: 60px 0px 20px 0px;
+  
+}
+  
+.body-purple .purple .text2 p{
+    font-size: 15px;
+    line-height: 26px;
+    color: white;
+}
+
+.body-purple .purple .text2 p:hover{
+    color: #a87bb7;
+}
+
+.body-purple .purple .button{
+    width: 100%;
+    text-align: center;
+      
+}
+  
+
+.body-purple .purple .button .btn-info{
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    border-radius: 25px;
+    color: #8824cd;
+    background: white ;
+    border: 1px solid #8824cd;
+    transition: 1s ease-in-out;
+  
+}
+  
+  
+.body-purple .purple .button .btn-info:hover{
+  
+    color: white;
+    background: #8824cd ;
+    border: 1px solid #8824cd;
+}
+
+.body-purple .purple p{
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*body salad*/
+
+.body-salad{
+    width: 100%;
+    position: relative;
+    background: url(../img/img6.png) center top no-repeat;
+    height: 700px;
+    padding-left:  80px;
+   
+}
+
+.body-salad .salad{
+    position: absolute;
+    width: 50%;
+    top: 360px;
+    padding-left: 40px;
+    
+    
+}
+
+.body-salad .salad .button .btn-info{
+   
+    font-size: 15px;
+    font-weight: 600;
+   margin-left: -20px;
+   margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+    background: transparent ;
+    border: 1px solid white;
+    transition: 1s ease-in-out;
+  
+}
+  
+  
+.body-salad .salad .button .btn-info:hover{
+  
+    color: white;
+    background: transparent ;
+    border: 1px solid #8824cd;
+}
+
+.body-salad .salad .title p{
+    margin-left: -20px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+
+
+}
+
+.body-salad .salad .media{
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+}
+
+.body-salad .salad .media .media-body{
+    width: 100%;
+    padding: 12px 0px 0px 0px;
+}
+
+.body-salad .salad .media .media-body p{
+    color: white;
+}
+/*body white 2*/
+
+.body-white2{
+    width: 100%;
+    height: 65vh;
+    
+}
+
+.body-white2 .white-left{
+    width: 100%;
+    text-align: left;
+}
+
+.body-white2 .white-left .title h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a4d60;
+    padding: 60px 0px 0px 0px;
+}
+
+.body-white2 .white-left .text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3a4d60;
+    padding: 20px 0px 10px 0px;
+}
+
+.body-white2 .white-left .text2 p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #3a4d60;
+    
+}
+
+.body-white2 .white-right{
+    width: 100%;
+    margin-top: -30px; 
+}
+
+.body-white2 .white-right img{
+    width: 469px;
+    height: 437px;
+   
+}
+
+/*body red 2*/
+
+.body-red2{
+    width: 100%;
+    height: 70vh;
+    background-color: #d54c63;
+}
+
+.body-red2 .red2{
+    width: 100%;
+    padding: 80px 0px 0px 10px;
+
+}
+
+.body-red2 .red2 .title h4{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+   
+}
+
+.body-red2 .red2 .text p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.body-red2 .red2 .email{
+    width: 100%;
+}
+
+.body-red2 .red2 .email p{
+    color: white;
+    font-size: 14px;
+
+}
+
+/*footer*/
+
+.footer-blue{
+    width: 100%;
+    height: 70vh;
+    background-color: #2e3b4e;
+    
+}
+
+.footer-blue .footer{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+
+.footer-blue .footer p{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .banner h4{
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    
+    }
+    
+   
+    
+}
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .banner-section .banner .button .btn-info {
+        
+        padding: 10px 40px;
+        
+    }
+    
+    .banner h2{
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    
+    }
+    
+    
+  }
+  
+
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .banner-section .banner .button .btn-info {
+        
+        padding: 10px 40px;
+        
+    }
+  
+    .banner h2{
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    
+    }
+    
+   
+    
+}
